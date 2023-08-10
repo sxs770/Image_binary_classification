@@ -1,0 +1,18 @@
+    {
+    "SEED" : 72,
+    "train_path" : "./train.txt",
+    "validation_path" : "./valid.txt",
+    "virtual_flaw_path" : "./virtual_flaw/",
+    "test_path" : "./test.txt",
+    "save_path" : "./result",
+    "model_name" : "CNN",
+    "target_size" : [512, 512, 1],
+    "epoch" : 500,
+    "batch_size" : 8,
+    "fold_num" : 1,
+    "learning_rate" : 0.0001,
+    "weight_decay" : "None",
+    "Image_cropping_methods" : "Non cropping",
+    "Preprocessing_methods" : "normalization and histogram equalization",
+    "Imbalance_methods" : "None"
+    }
